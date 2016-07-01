@@ -25,7 +25,10 @@ O comando acima irá criar os seguintes arquivos:
 * `config/initializers/my_admin.rb` – Arquivo com as configurações do MyAdmin. Veja mais em Configurações Geral
 * `db/migrate/create_my_admin_*.rb` – Migrações para criar as tabelas do MyAdmin.
 
-Execute ‘rake db:migrate’ para criar as tabelas do MyAdmin.
+Para criar as tabelas do MyAdmin, execute: 
+```console
+rake db:migrate
+```
 
 Inicie sua aplicação ‘rails s’. Assim o MyAdmin já estará disponível em ‘http://localhost:3000/admin’ 
 
